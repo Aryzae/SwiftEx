@@ -10,6 +10,9 @@
 		9A7A0C14200868D500E3B215 /* SwiftEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7A0C0A200868D400E3B215 /* SwiftEx.framework */; };
 		9A7A0C19200868D500E3B215 /* SwiftExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A0C18200868D500E3B215 /* SwiftExTests.swift */; };
 		9A7A0C1B200868D500E3B215 /* SwiftEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7A0C0D200868D400E3B215 /* SwiftEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A7A0C2A200869FA00E3B215 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A0C25200869F900E3B215 /* UIColorExtensions.swift */; };
+		9A7A0C2B200869FA00E3B215 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A0C27200869F900E3B215 /* CGFloatExtensions.swift */; };
+		9A7A0C2C200869FA00E3B215 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A0C29200869F900E3B215 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		9A7A0C13200868D500E3B215 /* SwiftExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7A0C18200868D500E3B215 /* SwiftExTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExTests.swift; sourceTree = "<group>"; };
 		9A7A0C1A200868D500E3B215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7A0C25200869F900E3B215 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		9A7A0C27200869F900E3B215 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
+		9A7A0C29200869F900E3B215 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 		9A7A0C0C200868D400E3B215 /* SwiftEx */ = {
 			isa = PBXGroup;
 			children = (
+				9A7A0C26200869F900E3B215 /* Numeric */,
+				9A7A0C28200869F900E3B215 /* String */,
+				9A7A0C24200869F900E3B215 /* UIColor */,
 				9A7A0C0D200868D400E3B215 /* SwiftEx.h */,
 				9A7A0C0E200868D400E3B215 /* Info.plist */,
 			);
@@ -84,6 +93,30 @@
 				9A7A0C1A200868D500E3B215 /* Info.plist */,
 			);
 			path = SwiftExTests;
+			sourceTree = "<group>";
+		};
+		9A7A0C24200869F900E3B215 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				9A7A0C25200869F900E3B215 /* UIColorExtensions.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		9A7A0C26200869F900E3B215 /* Numeric */ = {
+			isa = PBXGroup;
+			children = (
+				9A7A0C27200869F900E3B215 /* CGFloatExtensions.swift */,
+			);
+			path = Numeric;
+			sourceTree = "<group>";
+		};
+		9A7A0C28200869F900E3B215 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				9A7A0C29200869F900E3B215 /* StringExtensions.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7A0C2C200869FA00E3B215 /* StringExtensions.swift in Sources */,
+				9A7A0C2B200869FA00E3B215 /* CGFloatExtensions.swift in Sources */,
+				9A7A0C2A200869FA00E3B215 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +414,7 @@
 		9A7A0C22200868D500E3B215 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U38WFWB5D6;
 				INFOPLIST_FILE = SwiftExTests/Info.plist;
@@ -392,6 +429,7 @@
 		9A7A0C23200868D500E3B215 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U38WFWB5D6;
 				INFOPLIST_FILE = SwiftExTests/Info.plist;
