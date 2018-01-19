@@ -84,7 +84,7 @@
 				C69EB4DE200E5B5400E076EF /* Date */,
 				9A7A0C26200869F900E3B215 /* Numeric */,
 				9A7A0C28200869F900E3B215 /* String */,
-				9A7A0C24200869F900E3B215 /* UIColor */,
+				9A7A0C24200869F900E3B215 /* Color */,
 				9A7A0C0D200868D400E3B215 /* SwiftEx.h */,
 				9A7A0C0E200868D400E3B215 /* Info.plist */,
 			);
@@ -100,12 +100,12 @@
 			path = SwiftExTests;
 			sourceTree = "<group>";
 		};
-		9A7A0C24200869F900E3B215 /* UIColor */ = {
+		9A7A0C24200869F900E3B215 /* Color */ = {
 			isa = PBXGroup;
 			children = (
 				9A7A0C25200869F900E3B215 /* UIColorExtensions.swift */,
 			);
-			path = UIColor;
+			path = Color;
 			sourceTree = "<group>";
 		};
 		9A7A0C26200869F900E3B215 /* Numeric */ = {
