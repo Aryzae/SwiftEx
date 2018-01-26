@@ -13,6 +13,7 @@
 		9A7A0C2A200869FA00E3B215 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A0C25200869F900E3B215 /* UIColorExtensions.swift */; };
 		9A7A0C2B200869FA00E3B215 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A0C27200869F900E3B215 /* CGFloatExtensions.swift */; };
 		9A7A0C2C200869FA00E3B215 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A0C29200869F900E3B215 /* StringExtensions.swift */; };
+		9AE8C8DF201B208700157A63 /* UIScreenExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8C8DE201B208700157A63 /* UIScreenExtensions.swift */; };
 		9AEA12572011AAD200812D74 /* UIStoryboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA12562011AAD200812D74 /* UIStoryboardExtensions.swift */; };
 		9AEA126F2011F87100812D74 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA126E2011F87100812D74 /* NSObjectExtensions.swift */; };
 		C69EB4E0200E5B6300E076EF /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69EB4DF200E5B6300E076EF /* Locale.swift */; };
@@ -39,6 +40,7 @@
 		9A7A0C25200869F900E3B215 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		9A7A0C27200869F900E3B215 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
 		9A7A0C29200869F900E3B215 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		9AE8C8DE201B208700157A63 /* UIScreenExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtensions.swift; sourceTree = "<group>"; };
 		9AEA12562011AAD200812D74 /* UIStoryboardExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtensions.swift; sourceTree = "<group>"; };
 		9AEA126E2011F87100812D74 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
 		C69EB4DF200E5B6300E076EF /* Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				9AEA12562011AAD200812D74 /* UIStoryboardExtensions.swift */,
+				9AE8C8DE201B208700157A63 /* UIScreenExtensions.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AEA12572011AAD200812D74 /* UIStoryboardExtensions.swift in Sources */,
+				9AE8C8DF201B208700157A63 /* UIScreenExtensions.swift in Sources */,
 				9A7A0C2C200869FA00E3B215 /* StringExtensions.swift in Sources */,
 				C69EB4E2200E5BCD00E076EF /* DateFormatterExtensions.swift in Sources */,
 				9A7A0C2B200869FA00E3B215 /* CGFloatExtensions.swift in Sources */,
