@@ -1,2 +1,2 @@
 # SwiftEx
-Swift Extensions Collection
+Swift Extensions collection and Convenience method
