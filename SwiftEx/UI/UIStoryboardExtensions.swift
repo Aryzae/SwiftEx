@@ -9,8 +9,19 @@
 import UIKit
 
 extension UIStoryboard {
-    public static func initiate<T>(name: T.Type) -> T where T : UIViewController {
-        let className = String.init(describing: name.self)
-        return UIStoryboard.init(name: className, bundle: .main).instantiateInitialViewController() as! T
+    public static func instanceViewController<T>(from className: T.Type) -> T where T : UIViewController {
+        let name = String.init(describing: className.self)
+        guard let viewController = UIStoryboard.init(name: name, bundle: .main).instantiateInitialViewController() as? T else {
+            fatalError()
+        }
+        return viewController
+    }
+
+    public static func instanceNavigationController<T>(from className: T.Type) -> UINavigationController {
+        let name = String.init(describing: className.self)
+        guard let viewController = UIStoryboard.init(name: name, bundle: .main).instantiateInitialViewController() as? UINavigationController else {
+            fatalError()
+        }
+        return viewController
     }
 }
