@@ -2,8 +2,8 @@
 //  UIScreenExtensions.swift
 //  SwiftEx
 //
-//  Created by 999−277 on 2018/01/26.
-//  Copyright © 2018年 aryzae. All rights reserved.
+//  Created by Aryzae. on 2018/01/26.
+//  Copyright © 2018年 Aryzae. All rights reserved.
 //
 
 import UIKit

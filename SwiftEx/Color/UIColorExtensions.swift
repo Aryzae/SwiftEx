@@ -2,8 +2,8 @@
 //  UIColorExtensions.swift
 //  SwiftExtensions
 //
-//  Created by aryzae on 2017/12/27.
-//  Copyright © 2017年 aryzae. All rights reserved.
+//  Created by Aryzae on 2017/12/27.
+//  Copyright © 2017年 Aryzae. All rights reserved.
 //
 
 import UIKit

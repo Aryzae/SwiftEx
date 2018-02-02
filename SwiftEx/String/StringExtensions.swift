@@ -2,8 +2,8 @@
 //  StringExtensions.swift
 //  SwiftExtensions
 //
-//  Created by aryzae on 2018/01/11.
-//  Copyright © 2018年 aryzae. All rights reserved.
+//  Created by Aryzae on 2018/01/11.
+//  Copyright © 2018年 Aryzae. All rights reserved.
 //
 
 import Foundation
