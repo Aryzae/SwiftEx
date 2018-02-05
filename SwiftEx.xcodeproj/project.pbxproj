@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9A6542BD2024717E0084148E /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6542BC2024717E0084148E /* ScreenSize.swift */; };
 		9A6542C82027FF4E0084148E /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6542C72027FF4E0084148E /* Routable.swift */; };
+		9A6542CA202806FD0084148E /* WebViewControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6542C9202806FD0084148E /* WebViewControllable.swift */; };
 		9A7A0C14200868D500E3B215 /* SwiftEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7A0C0A200868D400E3B215 /* SwiftEx.framework */; };
 		9A7A0C19200868D500E3B215 /* SwiftExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A0C18200868D500E3B215 /* SwiftExTests.swift */; };
 		9A7A0C1B200868D500E3B215 /* SwiftEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7A0C0D200868D400E3B215 /* SwiftEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		9A6542BC2024717E0084148E /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
 		9A6542C72027FF4E0084148E /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		9A6542C9202806FD0084148E /* WebViewControllable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewControllable.swift; sourceTree = "<group>"; };
 		9A7A0C0A200868D400E3B215 /* SwiftEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7A0C0D200868D400E3B215 /* SwiftEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftEx.h; sourceTree = "<group>"; };
 		9A7A0C0E200868D400E3B215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				9A6542C72027FF4E0084148E /* Routable.swift */,
+				9A6542C9202806FD0084148E /* WebViewControllable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			files = (
 				9A6542BD2024717E0084148E /* ScreenSize.swift in Sources */,
 				9AEA12572011AAD200812D74 /* UIStoryboardExtensions.swift in Sources */,
+				9A6542CA202806FD0084148E /* WebViewControllable.swift in Sources */,
 				9AE8C8DF201B208700157A63 /* UIScreenExtensions.swift in Sources */,
 				9A7A0C2C200869FA00E3B215 /* StringExtensions.swift in Sources */,
 				9A6542C82027FF4E0084148E /* Routable.swift in Sources */,
