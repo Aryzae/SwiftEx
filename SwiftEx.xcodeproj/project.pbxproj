@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A6542BD2024717E0084148E /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6542BC2024717E0084148E /* ScreenSize.swift */; };
+		9A6542BD2024717E0084148E /* ScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6542BC2024717E0084148E /* ScreenType.swift */; };
 		9A6542C82027FF4E0084148E /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6542C72027FF4E0084148E /* Routable.swift */; };
 		9A6542CA202806FD0084148E /* WebViewControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6542C9202806FD0084148E /* WebViewControllable.swift */; };
 		9A7A0C14200868D500E3B215 /* SwiftEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7A0C0A200868D400E3B215 /* SwiftEx.framework */; };
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A6542BC2024717E0084148E /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		9A6542BC2024717E0084148E /* ScreenType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenType.swift; sourceTree = "<group>"; };
 		9A6542C72027FF4E0084148E /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
 		9A6542C9202806FD0084148E /* WebViewControllable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewControllable.swift; sourceTree = "<group>"; };
 		9A7A0C0A200868D400E3B215 /* SwiftEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,7 @@
 				9AEA12562011AAD200812D74 /* UIStoryboardExtensions.swift */,
 				9AE8C8DE201B208700157A63 /* UIScreenExtensions.swift */,
 				C658FC16201CBE6C002AF917 /* Code128Generator.swift */,
-				9A6542BC2024717E0084148E /* ScreenSize.swift */,
+				9A6542BC2024717E0084148E /* ScreenType.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -288,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6542BD2024717E0084148E /* ScreenSize.swift in Sources */,
+				9A6542BD2024717E0084148E /* ScreenType.swift in Sources */,
 				9AEA12572011AAD200812D74 /* UIStoryboardExtensions.swift in Sources */,
 				9A6542CA202806FD0084148E /* WebViewControllable.swift in Sources */,
 				9AE8C8DF201B208700157A63 /* UIScreenExtensions.swift in Sources */,
