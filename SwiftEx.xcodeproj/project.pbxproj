@@ -20,6 +20,7 @@
 		9AEA12572011AAD200812D74 /* UIStoryboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA12562011AAD200812D74 /* UIStoryboardExtensions.swift */; };
 		9AEA126F2011F87100812D74 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA126E2011F87100812D74 /* NSObjectExtensions.swift */; };
 		C658FC17201CBE6C002AF917 /* Code128Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658FC16201CBE6C002AF917 /* Code128Generator.swift */; };
+		C6996A3120349E3200853D71 /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6996A3020349E3200853D71 /* UserDefaultsExtensions.swift */; };
 		C69EB4E0200E5B6300E076EF /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69EB4DF200E5B6300E076EF /* Locale.swift */; };
 		C69EB4E2200E5BCD00E076EF /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69EB4E1200E5BCD00E076EF /* DateFormatterExtensions.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		9AEA12562011AAD200812D74 /* UIStoryboardExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtensions.swift; sourceTree = "<group>"; };
 		9AEA126E2011F87100812D74 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
 		C658FC16201CBE6C002AF917 /* Code128Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code128Generator.swift; sourceTree = "<group>"; };
+		C6996A3020349E3200853D71 /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtensions.swift; sourceTree = "<group>"; };
 		C69EB4DF200E5B6300E076EF /* Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
 		C69EB4E1200E5BCD00E076EF /* DateFormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				9AEA126E2011F87100812D74 /* NSObjectExtensions.swift */,
+				C6996A3020349E3200853D71 /* UserDefaultsExtensions.swift */,
 			);
 			path = NS;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				9A7A0C2C200869FA00E3B215 /* StringExtensions.swift in Sources */,
 				9A6542C82027FF4E0084148E /* Routable.swift in Sources */,
 				C69EB4E2200E5BCD00E076EF /* DateFormatterExtensions.swift in Sources */,
+				C6996A3120349E3200853D71 /* UserDefaultsExtensions.swift in Sources */,
 				9A7A0C2B200869FA00E3B215 /* CGFloatExtensions.swift in Sources */,
 				9AEA126F2011F87100812D74 /* NSObjectExtensions.swift in Sources */,
 				9A7A0C2A200869FA00E3B215 /* UIColorExtensions.swift in Sources */,
