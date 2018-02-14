@@ -33,7 +33,7 @@ enum ScreenType {
         case CGSize(width: 375.0, height: 812.0):
             self = .iPhone5_8inch
         default:
-            self = .other
+            self = .others
         }
     }
 }
