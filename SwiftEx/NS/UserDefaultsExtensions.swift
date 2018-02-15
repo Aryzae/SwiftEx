@@ -35,6 +35,11 @@ extension BoolDefaultSettable where BoolKey.RawValue == String {
         let key = namespaced(key)
         return UserDefaults.standard.bool(forKey: key)
     }
+
+    func removeObject(forKey key: BoolKey) {
+        let key = namespaced(key)
+        UserDefaults.standard.removeObject(forKey: key)
+    }
 }
 
 // MARK: - Int
@@ -52,6 +57,11 @@ extension IntDefaultSettable where IntKey.RawValue == String {
     func integer(forKey key: IntKey) -> Int {
         let key = namespaced(key)
         return UserDefaults.standard.integer(forKey: key)
+    }
+
+    func removeObject(forKey key: IntKey) {
+        let key = namespaced(key)
+        UserDefaults.standard.removeObject(forKey: key)
     }
 }
 
@@ -71,6 +81,11 @@ extension FloatDefaultSettable where FloatKey.RawValue == String {
         let key = namespaced(key)
         return UserDefaults.standard.float(forKey: key)
     }
+
+    func removeObject(forKey key: FloatKey) {
+        let key = namespaced(key)
+        UserDefaults.standard.removeObject(forKey: key)
+    }
 }
 
 // MARK: - Double
@@ -88,6 +103,11 @@ extension DoubleDefaultSettable where DoubleKey.RawValue == String {
     func double(forKey key: DoubleKey) -> Double {
         let key = namespaced(key)
         return UserDefaults.standard.double(forKey: key)
+    }
+
+    func removeObject(forKey key: DoubleKey) {
+        let key = namespaced(key)
+        UserDefaults.standard.removeObject(forKey: key)
     }
 }
 
@@ -107,6 +127,11 @@ extension StringDefaultSettable where StringKey.RawValue == String {
         let key = namespaced(key)
         return UserDefaults.standard.string(forKey: key)
     }
+
+    func removeObject(forKey key: StringKey) {
+        let key = namespaced(key)
+        UserDefaults.standard.removeObject(forKey: key)
+    }
 }
 
 // MARK: - StringArray
@@ -124,6 +149,11 @@ extension StringArrayDefaultSettable where StringArrayKey.RawValue == String {
     func stringArray(forKey key: StringArrayKey) -> [String]? {
         let key = namespaced(key)
         return UserDefaults.standard.stringArray(forKey: key)
+    }
+
+    func removeObject(forKey key: StringArrayKey) {
+        let key = namespaced(key)
+        UserDefaults.standard.removeObject(forKey: key)
     }
 }
 
@@ -143,6 +173,11 @@ extension URLDefaultSettable where URLKey.RawValue == String {
         let key = namespaced(key)
         return UserDefaults.standard.url(forKey: key)
     }
+
+    func removeObject(forKey key: URLKey) {
+        let key = namespaced(key)
+        UserDefaults.standard.removeObject(forKey: key)
+    }
 }
 
 // MARK: - Array
@@ -160,6 +195,11 @@ extension ArrayDefaultSettable where ArrayKey.RawValue == String {
     func array(forKey key: ArrayKey) -> [Any]? {
         let key = namespaced(key)
         return UserDefaults.standard.array(forKey: key)
+    }
+
+    func removeObject(forKey key: ArrayKey) {
+        let key = namespaced(key)
+        UserDefaults.standard.removeObject(forKey: key)
     }
 }
 
@@ -179,6 +219,11 @@ extension DictionaryDefaultSettable where DictionaryKey.RawValue == String {
         let key = namespaced(key)
         return UserDefaults.standard.dictionary(forKey: key)
     }
+
+    func removeObject(forKey key: DictionaryKey) {
+        let key = namespaced(key)
+        UserDefaults.standard.removeObject(forKey: key)
+    }
 }
 
 // MARK: - Data
@@ -197,6 +242,11 @@ extension DataDefaultSettable where DataKey.RawValue == String {
         let key = namespaced(key)
         return UserDefaults.standard.data(forKey: key)
     }
+
+    func removeObject(forKey key: DataKey) {
+        let key = namespaced(key)
+        UserDefaults.standard.removeObject(forKey: key)
+    }
 }
 
 ///
@@ -210,10 +260,18 @@ extension DataDefaultSettable where DataKey.RawValue == String {
 //      }
 //  }
 //
+/// e.g. set
+//
 //  UserDefaults.standard.set("Aryzae", forKey: .firstName)
 //  UserDefaults.standard.set("Aspergillus", forKey: .lastName)
 //
+/// e.g. get
+//
 //  let firstName = UserDefaults.standard.string(forKey: .firstName)
 //  let lastName = UserDefaults.standard.string(forKey: .lastName)
-
+//
+/// e.g. remove
+//
+//  UserDefaults.standard.removeObject(forKey: .firstName)
+//  UserDefaults.standard.removeObject(forKey: .lastName)
 
