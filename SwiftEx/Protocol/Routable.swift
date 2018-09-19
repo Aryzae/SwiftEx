@@ -52,7 +52,8 @@ extension Routable {
     func present(_ destination: PresentDestination, from viewController: UIViewController, animated: Bool, completion: (() -> Void)?) {
         viewController.present(destination.viewController, animated: animated, completion: completion)
     }
-
+    
     func navigationPush(_ destination: PushDestination, from viewController: UIViewController, animated: Bool) {
         viewController.navigationController?.pushViewController(destination.viewController, animated: true)
+    }
 }
