@@ -18,7 +18,7 @@ enum PresentDestination {
         switch self {
         case .viewControllerA:
             viewController = UIViewController()
-        case .viewControllerB(let url):
+        case .viewControllerB(_):
             viewController = UIViewController()
         }
         return viewController
@@ -36,7 +36,7 @@ enum PushDestination {
         switch self {
         case .viewControllerA:
             viewController = UIViewController()
-        case .viewControllerB(let url):
+        case .viewControllerB(_):
             viewController = UIViewController()
         }
         return viewController
